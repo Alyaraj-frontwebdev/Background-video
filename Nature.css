@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255,255);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: rgb(255, 255,255);
+    font-size: 150px;
+    font-weight: 200;
+    margin-top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title button{
+    width: 280px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(255, 255,255);
+    border-radius: 25px;
+    color: rgb(255, 255,255);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: -80px;
+    transition: 0.5s ease-in-out;
+}
+.title button:hover{
+    color: red;
+    border-color: red;
+}
+.bi{
+    margin-left: 20px;
+    color: rgb(255, 255,255);
+}
